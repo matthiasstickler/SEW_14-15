@@ -6,7 +6,7 @@
 	version="2.2">
 	
 	<managed-bean>
-		<managed-bean-name>temperatureConverter</managed-bean-name>
+		<managed-bean-name>TemperetureConvertor</managed-bean-name>
 		<managed-bean-class>temperature.TemperetureConvertor</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>

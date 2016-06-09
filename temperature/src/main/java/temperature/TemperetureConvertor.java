@@ -4,9 +4,6 @@ import java.io.Serializable;
 
 import javax.faces.bean.SessionScoped;
 
-import converter.ManagedBean;
-
-@javax.faces.bean.ManagedBean(name = "temperatureConverter")
 @SessionScoped
 public class TemperetureConvertor implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -54,7 +51,7 @@ public class TemperetureConvertor implements Serializable {
 	public void fahrenheitToKelvin() {
 		
 		this.initial = false;
-		this.unit="Celsius";
+		this.unit="Kelvin";
 		this.converted = (convert + 459.67)/ 1.8;
 	}
 	public void kelvinToCelsius() {
@@ -66,13 +63,13 @@ public class TemperetureConvertor implements Serializable {
 	public void celsiusToKelvin() {
 		
 		this.initial = false;
-		this.unit="Celsius";
+		this.unit="Kelvin";
 		this.converted = convert + 273.15;
 	}
 	public void kelvinToFahrenheit() {
 		
 		this.initial = false;
-		this.unit="Celsius";
+		this.unit="Fahrenheit";
 		this.converted = (convert + 459.67)* 1.8;
 	}
 }
