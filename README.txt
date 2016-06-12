@@ -1,2 +1,4 @@
-Learning to use git are:
-Matthias Stickler TGM 3BHIT
+Softwareengeniering Repository
+
+Matthias Stickler 
+TGM 4AHITM
